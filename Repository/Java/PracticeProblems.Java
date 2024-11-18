@@ -1,6 +1,6 @@
 package java101;
 
-public class Main {
+public class PracticeProblems {
 
     static int countOccurrences(int[] arr, int n) {
         int count = 0;
