@@ -1,4 +1,4 @@
-package java101;
+Package java101;
 
 public class PracticeProblems {
     static int countOccurrences(int[] arr, int n) {
@@ -52,4 +52,3 @@ public class PracticeProblems {
         return result;
     }
 }
-
