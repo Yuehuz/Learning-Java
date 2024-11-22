@@ -1,6 +1,7 @@
-Package java101;
+package java101;
 
 public class PracticeProblems {
+   
     static int countOccurrences(int[] arr, int n) {
         int count = 0;
         for (int i = 0; i <= arr.length - 1; i++) {
@@ -10,11 +11,12 @@ public class PracticeProblems {
         }
         return count;
     }
-
+    
     static int[] reverseArray(int[] arr) {
         String str = "{";
         int[] reversed = new int[arr.length];
-        for (int i >= 0; i = arr.length - 1; i--) {
+        for (int i >
+        = 0; i = arr.length - 1; i--) {
             if (i > 0){
                 str += (arr[i]) + ", ";
         }   else {
@@ -23,7 +25,7 @@ public class PracticeProblems {
         }
         return reversed;
     }
- 
+    
     static double sumGrid(int[][] arr, int sum) {
         int sum = 0;
         for (int i = 0; i < arr.length; i++) {
@@ -34,7 +36,7 @@ public class PracticeProblems {
         }
         return sum;
     }
-
+    
     static int fib(int n) {
         int a = 0;
         int b = 1;
@@ -52,3 +54,5 @@ public class PracticeProblems {
         return result;
     }
 }
+    
+
