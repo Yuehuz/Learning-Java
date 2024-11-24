@@ -1,5 +1,6 @@
 package java102;
 
+
 public class Point {
 	public double y;
 	public double x;
@@ -23,12 +24,24 @@ public class Point {
 		
 	}
 
+	
 	public double angle() {
         double angleRadians = Math.atan2(y, x);
         double angleDegrees = Math.toDegrees(angleRadians);
         return angleDegrees;
     }
+
+    public Point rotate(double theta) {
+    
+        double thetaRadians = Math.toRadians(theta);
+
+        double newX = x * Math.cos(thetaRadians) - y * Math.sin(thetaRadians);
+        double newY = x * Math.sin(thetaRadians) + y * Math.cos(thetaRadians);
+
+        return new Point(newX, newY);
+    }
 }
+
 	
 
 		
