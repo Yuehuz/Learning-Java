@@ -2,13 +2,16 @@ package java102;
 
 public class Main {
     public final void main(String[] args) {
-        Point[] points ={
-            new Point(1, 1),
-            new Point(2, 2),
-            new Point(3, 3)
-
+        Point[] points = { 
+            new Point(1, 2), 
+            new Point(3, 4), 
+            new Point(5, 6) 
         };
-        Point center = Point.centerOfMass(points);
-        System.out.println("Center of Mass: (" + center.x + ", " + center.y + ")");
+        System.out.println(Point.centerOfMass(points)); 
+        Point p = new Point(3, 4); 
+        System.out.println(Point.angle);
+    }
+   
+        
 }
-}
+
