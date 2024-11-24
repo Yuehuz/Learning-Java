@@ -9,7 +9,7 @@ public class Main {
         };
         System.out.println(Point.centerOfMass(points)); 
         Point p = new Point(3, 4); 
-        System.out.println(Point.angle);
+        System.out.println(p.angle());
     }
    
         
