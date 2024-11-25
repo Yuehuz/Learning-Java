@@ -10,14 +10,14 @@ public class Circle implements Shape {
         this.centerY = centerY;
         this.radius = radius;
     }
-
+    
     public static Circle fromPoints(Point p1, Point p2, Point p3) {
-        double x1 = p1.getX();
-        double y1 = p1.getY();
-        double x2 = p2.getX();
-        double y2 = p2.getY();
-        double x3 = p3.getX();
-        double y3 = p3.getY();
+        double x1 = p1.x;
+        double y1 = p1.y;
+        double x2 = p2.x;
+        double y2 = p2.y;
+        double x3 = p3.x;
+        double y3 = p3.y;
 
         double midX1 = (x1 + x2) / 2;
         double midY1 = (y1 + y2) / 2;
